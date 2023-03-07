@@ -225,6 +225,10 @@ p {
 .section_padding{
 	padding: 100px 0;
 }
+
+.row_padding{
+	padding: 10px 0;
+}
 .section_heading{
 	margin-bottom: 60px;
 }
@@ -671,7 +675,7 @@ p {
 * ----------------------------------------------------------------------------------------
 */
 .single-service{
-    padding: 40px 30px;
+    padding: 20px 10px;
 	box-shadow: 0px 17px 60px #00000012;
 	background: #fff;
 	border-radius: 10px;
@@ -711,7 +715,7 @@ p {
 	color: #fff;
 }
 .single-service h4{
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 30px;
     text-transform: uppercase;
     color: #222;
@@ -948,7 +952,7 @@ p {
     transition: all linear .5s;
 }
 .single_team h3{
-    font-size: 25px;
+    font-size: 15px;
     color: #fff;
     padding-top: 10px;
     display: inline-block;
@@ -989,7 +993,7 @@ p {
     transition: all linear .3s;
 }
 .single_team p{
-    font-size: 16px;
+    font-size: 12px;
     color: #fff;
 }
 /*
