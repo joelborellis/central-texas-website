@@ -1,8 +1,3 @@
-function NewPortalTab() {
-	window.open(
-	"https://www.centraltexasanxiety.com/sign-in", "_blank");
-}
-
 (function($) {
 	'use strict';
 	
