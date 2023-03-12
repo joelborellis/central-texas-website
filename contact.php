@@ -3,8 +3,8 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$message = $_POST['message'];
-		$from = 'Parax Contact Form'; 
-		$to = 'example@gmail.com'; 
+		$from = 'Central Texas Anxiety Contact Form'; 
+		$to = 'joelborellis@outlook.com'; 
 		$subject = $_POST['subject']; 
 		
 		$body = "From: $name\n E-Mail: $email\n Subject: $subject\n Message:\n $message";
