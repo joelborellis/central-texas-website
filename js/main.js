@@ -40,9 +40,9 @@ function initMap() {
 	// Origins, anchor positions and coordinates of the marker increase in the X
 	// direction to the right and in the Y direction down.
 	const image = {
-	  url: "https://centraltexasanxiety.azurewebsites.net/images/siteflag.png",
+	  url: "https://centraltexasanxiety.azurewebsites.net/images/pin.png",
 	  // This marker is 20 pixels wide by 32 pixels high.
-	  size: new google.maps.Size(20, 32),
+	  size: new google.maps.Size(32, 32),
 	  // The origin for this image is (0, 0).
 	  origin: new google.maps.Point(0, 0),
 	  // The anchor for this image is the base of the flagpole at (0, 32).

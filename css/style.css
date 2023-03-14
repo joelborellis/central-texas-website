@@ -1456,13 +1456,42 @@ p {
 	margin-bottom: 20px;
 	border-radius: 30px;
 }
+
+.spwidget-button-who{
+    background: transparent;
+	border: 1px solid #7564e5;
+	margin-right: 20px;
+	color: #7564e5;
+	font-size: 14px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.2s ease 0s;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-radius: 30px;
+}
 .spwidget-button:hover{
     color: #fff;
 	background: #7564e5; 
 	border-color: #7564e5;
 	text-decoration: none;
 }
+
+.spwidget-button-who:hover{
+    color: #fff;
+	background: #7564e5; 
+	border-color: #7564e5;
+	text-decoration: none;
+}
 .spwidget-button:active{
+    color: rgba(255, 255, 255, .75) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15) inset
+}
+
+.spwidget-button-who:active{
     color: rgba(255, 255, 255, .75) !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15) inset
 }
