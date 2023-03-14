@@ -1333,6 +1333,7 @@ p {
 .single_contact{
 	padding: 10px 10px 10px 10px;
 	border: 1px solid #e3e3e3;
+    height: 400px;
 }
 .dark_bg .single_contact{
 	border: 1px solid #384967;
@@ -1511,3 +1512,15 @@ p {
 .bio-content p{
     font-size: 12px;
 }
+
+/*
+* ----------------------------------------------------------------------------------------
+* 17. MAP STUFF
+* ----------------------------------------------------------------------------------------
+*/
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 380px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+  }
